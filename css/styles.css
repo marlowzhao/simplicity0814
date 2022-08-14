@@ -52,7 +52,7 @@ header {
     .container-nav {
         flex-direction: column;
     }
-    
+
     header {
         text-align: center;
     }
@@ -95,8 +95,65 @@ nav a:focus {
     nav ul {
         flex-direction: column;
     }
-    
+
     nav li {
         margin: .5em 0;
     }
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.page-left{
+  width: 72%;
+}
+.page-left img{
+  width:100%;
+}
+
+
+.article-title{
+  color: #143774;
+  font-family: Lora;
+
+}
+.article-body{
+  color:#707070;
+}
+.article-read-more{
+  color:#1792D2;
+  text-decoration: none;
+  font-weight: 700;
+
+}
+.article-read-more:hover{
+  color:#143774;
+  text-decoration: underline;
+}
+
+.page-right{
+  width:24%;
+}
+
+.right-card-title{
+  font-family: Ubuntu;
+  font-weight: bold;
+  color:#143774;
+  font-size: 18px;
+}
+
+.right-card-body{
+  font: normal normal 300 14px/24px Ubuntu;
+}
+
+.right-card img{
+  width:100%;
+}
+.right-card-post-title{
+  font: normal normal normal 18px/28px Lora;
+  color: #143774;
 }
