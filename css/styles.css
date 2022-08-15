@@ -1,8 +1,3 @@
-/*  Fonts
------
-font-family: 'Lora', serif;
-font-family: 'Ubuntu', sans-serif;
-*/
 
 body {
     margin: 0;
@@ -88,6 +83,7 @@ nav a {
 nav a:hover,
 nav a:focus {
     color: #1792d2;
+    text-decoration: underline;
 }
 
 .current-page {
@@ -132,6 +128,8 @@ nav a:focus {
 .article-title{
   color: #143774;
   font-family: Lora;
+  line-height: 0;
+  padding-bottom: 5px;
 }
 .article-body{
   color:#707070;
@@ -140,7 +138,6 @@ nav a:focus {
   color:#1792D2;
   text-decoration: none;
   font-weight: 700;
-
 }
 .article-read-more:hover{
   color:#143774;
@@ -199,7 +196,10 @@ nav a:focus {
   color:#143774;
   font-size: 18px;
 }
-
+.right-card-title a{
+  text-decoration: none;
+  color:#143774;
+}
 .right-card{
   border: 20px solid #f8f8f8;
   margin-top: 1.4rem;
@@ -216,9 +216,6 @@ nav a:focus {
   font: normal normal normal 18px/28px Lora;
   color: #143774;
 }
-/* .page-right-gap{
-  height:2rem;
-} */
 
 .card-post-widget{
   border-bottom: 1px solid #707070;
@@ -228,6 +225,15 @@ nav a:focus {
 .card-post-widget:last-child{
   border:0;
   margin:0;
+}
+
+/* about me full page */
+#about-me-main h2{
+  color: #143774;
+  font-family:  Lora;
+}
+#about-me-main p{
+  color:#707070;
 }
 
 @media (max-width: 675px){
